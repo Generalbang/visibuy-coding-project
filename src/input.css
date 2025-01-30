@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.best-card p span {
+  text-decoration: line-through;
+  color: rgb(156, 153, 153);
+}
+.best-card-overlay {
+  transition: all 2s ease;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(97, 100, 100, 0.384);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
+.best-card-img {
+  transition: all 2s ease;
+}
+.best-card:hover .best-card-overlay {
+  display: flex;
+  transition: all 2s ease;
+}
